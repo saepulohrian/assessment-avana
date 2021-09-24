@@ -1,0 +1,19 @@
+{
+    "name": "riansaepuloh/validateexcel",
+    "description": "Validation excel file format data",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rian Saepuloh",
+            "email": "riandagolabs@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
